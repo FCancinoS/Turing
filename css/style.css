@@ -1,0 +1,75 @@
+
+body{
+    background-image: url(/img/background.jpg);
+}
+
+.titulos{
+    color: black;
+    font-size: 70px;
+    font-family: Proto;
+}
+
+.subtitulos{
+    color: black;
+    font-size: 30px;
+    font-family: Champagne;
+}
+.logo{
+    
+    margin-right: 1000px;
+    text-align: center;
+}
+
+.login{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+.loginbut{
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: proto;
+    color: white;
+}
+#entrar{
+    background-color: rgb(55, 202, 121);
+
+}
+#registarse{
+    background-color: rgb(43, 31, 219);
+}
+header{
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+}
+
+
+@font-face {
+    font-family: Nyata;
+  /*  font-style: normal;
+    font-weight: normal;
+  */  src: url(/fonts/NyataFTR-Regular.otf);
+ }
+
+ @font-face {
+    font-family: Arca;
+  /*  font-style: normal;
+    font-weight: normal;
+  */  src: url(/fonts/ArcaMajora3-Bold.otf);
+ }
+
+ @font-face {
+    font-family: Champagne;
+  /*  font-style: normal;
+    font-weight: normal;
+  */  src: url(/fonts/Champagne\ &\ Limousines.ttf);
+ }
+ @font-face {
+    font-family: Proto;
+  /*  font-style: normal;
+    font-weight: normal;
+  */  src: url(/fonts/Prototype.ttf);
+ }
