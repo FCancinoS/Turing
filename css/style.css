@@ -1,25 +1,21 @@
-
 body{
-    background-image: url(/img/background.jpg);
+    background-image: url(../img/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 .titulos{
-    color: black;
+    color: white;
     font-size: 70px;
     font-family: Proto;
 }
-
 .subtitulos{
-    color: black;
+    color: white;
     font-size: 30px;
-    font-family: Champagne;
+    font-family: Champagne;    
 }
-.logo{
-    
-    margin-right: 1000px;
-    text-align: center;
+.logo{    
+    margin: auto;         
 }
-
 .login{
     margin-top: 70px;
     display: flex;
@@ -35,41 +31,141 @@ body{
     color: white;
 }
 #entrar{
-    background-color: rgb(55, 202, 121);
-
+    background-color: rgba(255, 4, 4, 0.37);
 }
 #registarse{
-    background-color: rgb(43, 31, 219);
+    background-color: rgba(0, 153, 255, 0.459);
 }
 header{
-    background-color: rgba(255, 255, 255, 0.8);
+
+    background-color: rgba(0, 0, 0, 0.3);
     display: flex;
+    border: 1px white solid;
+    text-align: center;     
+    
+}
+.barra  {
+    list-style-type: none;
+    width: 150px;
+    font-size: 22px;
+    font-family: Arial;
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid white;
+    margin-right: 10px;
+    border-radius: 3px;   
+    padding-top: 5px;
+}
+.barra  a{
+    color: white;
+    text-decoration: none;   
+    padding-top: 10px;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
+.barra:hover{   
+    color: black;
+    background-color: rgba(0, 153, 255, 0.459);
+}
 
+.barranav{
+    display: flex;
+    
+    height: 55px;
+    justify-content: center;
+    border: 1px white solid;
+}
+.bigbody{
+    width: 1000px;
+    display: flex;
+    margin: auto;
+     
+}
+section{
+    width: 600px;   
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border: 5px   black solid;
+    font-family: Arial;
+    font-size: 25px;
+}
+aside{
+    width: 200px;
+   
+    color: white;    
+    background-color: rgba(0, 153, 255,0.8);
+    border: white 1px solid;
+    border-radius: 5px;
+}
+
+.register{
+    background-color: rgba(0, 0, 0, 0.55);
+    color: white;
+    text-align: left;
+    justify-content: center;
+    margin: auto;
+    width: 400px;
+    height: auto;
+   
+    padding-top: 5px;
+    font-size: 20px;
+    font-family: arial;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.controls {
+    width: 76%;
+    background: rgba(0, 0, 0, 0.55);
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ffffff;
+    font-family: 'arial';
+    font-size: 18px;
+    color: white;
+  }
+.form-botons{
+    width: 76%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+.pform{
+    text-align: center;
+    
+}
+
+.classic{
+    width: 700px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    text-align: center;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: arial;
+
+}
 @font-face {
     font-family: Nyata;
-  /*  font-style: normal;
-    font-weight: normal;
-  */  src: url(/fonts/NyataFTR-Regular.otf);
+    src: url(../fonts/NyataFTR-Regular.otf);
  }
-
- @font-face {
-    font-family: Arca;
-  /*  font-style: normal;
-    font-weight: normal;
-  */  src: url(/fonts/ArcaMajora3-Bold.otf);
- }
-
  @font-face {
     font-family: Champagne;
-  /*  font-style: normal;
-    font-weight: normal;
-  */  src: url(/fonts/Champagne\ &\ Limousines.ttf);
+    src: url(../fonts/Champagne\ &\ Limousines.ttf);
  }
  @font-face {
     font-family: Proto;
-  /*  font-style: normal;
-    font-weight: normal;
-  */  src: url(/fonts/Prototype.ttf);
+  src: url(../fonts/Prototype.ttf);
  }
