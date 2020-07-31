@@ -1,49 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel=stylesheet href="css/style.css">
-    <link rel=stylesheet href="css/slider.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-    crossorigin="anonymous">
-    <title>Turing</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel=stylesheet href="css/style.css">
+	<link rel=stylesheet href="css/slider.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+	crossorigin="anonymous">
+	<title>Lockers</title>
 </head>
 <body>
-    <header>
-        <div class = logo>
-            <h1 class=titulos> Turing</h1>
-            <h1 class="subtitulos"> &nbsp; Sistema de pr&eacute;stamo de material para alumnos</h1>
-        </div>
-
-    </header>   
-    <nav>
-        <ul class="barranav">
-            <li class="barra">
-                <a href="index.html"> <i class="fa fa-home" aria-hidden="true"></i> Home</a>                
-            </li>
-            <li class="barra">
-                <a href="acount.html"> <i class="fa fa-user" aria-hidden="true"></i> Mi cuenta</a>
-            </li>
-            <li class="barra">
-                <a href="lockers.html"> <i class="fa fa-table" aria-hidden="true"></i> Lockers</a>
-            </li>
-            <li class="barra">
-                <a href="#"> <i class="fa fa-calendar" aria-hidden="true"></i> Reservar </a>
-            </li>
-            <li class="barra">
-                <a href="donations.html"> <i class="fa fa-gift" aria-hidden="true"></i> Donaciones</a>
-            </li>
-        </ul>
-    </nav>
-    <div class="classic">
-        <p> El servicio de lockers solo estar&aacute; disponible para el laboratorio de microcontroladores</p>
-        <p> Favor de leer el <a href="reglamento_Lockers.pdf" >Reglamento de lockers</a></p>
-        <form>
-            <button formaction="">Recibir locker</button>
-        </form>
-
-        <p>Tienes asignado el locker #16 </p>
-    </div>
+	<header>
+		<div class = logo>
+			<h1 class=titulos> Turing</h1>
+			<h1 class="subtitulos"> &nbsp; Sistema de pr&eacute;stamo de material para alumnos</h1>
+		</div>
+	</header>   
+	<nav>
+		<ul class="barranav">
+			<li  class="hamburger" id="burger">
+				<a href="#"> <i class="fa fa-bars" aria-hidden="true"></i></a>                
+			</li>
+			<li class="barra">
+				<a href="index.html"> <i class="fa fa-home" aria-hidden="true"></i> Home</a>                
+			</li>
+			<li class="barra">
+				<a href="acount.html"> <i class="fa fa-user" aria-hidden="true"></i> Mi cuenta</a>
+			</li>
+			<li class="barra">
+				<a href="lockers.html"> <i class="fa fa-table" aria-hidden="true"></i> Lockers</a>
+			</li>
+			<li class="barra">
+				<a href="#"> <i class="fa fa-calendar" aria-hidden="true"></i> Reservar </a>
+			</li>
+			<li class="barra">
+				<a href="donations.html"> <i class="fa fa-gift" aria-hidden="true"></i> Donaciones</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="classic">
+		<p> El servicio de lockers solo estar&aacute; disponible para el laboratorio de microcontroladores</p>
+		<p > Favor de leer el <a href="files/reglamento_Lockers.pdf" class="RulesLockers" target="_blank">Reglamento de lockers</a></p>
+		<form >
+			<button class="form-botons" formaction="">Recibir locker</button>
+		</form>
+		<p>Tienes asignado el locker #16 </p>
+	</div>
+	<br>
+	<br>
+	<footer>
+		<p> Creado por Francisco Cancino y Jos&eacute; Antonio Hern&aacute;ndez &copy;</p>
+	</footer>
 </body>
 </html>

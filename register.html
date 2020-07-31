@@ -7,7 +7,11 @@
     <link rel=stylesheet href="css/slider.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
     crossorigin="anonymous">
-    <title>Turing</title>
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+    <title>Sign Up</title>
 </head>
 <body>
     <header>
@@ -49,20 +53,25 @@
     <form action="ejemplo.php" method="get" class="form-register">
         <p class="pform">Registro
             <br>
-             <input type="text" name="nombre" size="40" class="controls" placeholder="Ingresa tu nombre">
+             <input type="text" id="uname"name="nombre" size="40" class="controls" placeholder="Ingresa tu nombre completo">
             <br>
-            <input type="text" name="nombre" size="40" class="controls" placeholder="Ingresa tu Correo electr&oacute;nico">            
+            <input type="text" id="umail"name="nombre" size="40" class="controls" placeholder="Ingresa tu Correo electr&oacute;nico">            
             <br>
-             <input type="text"size="40"  class="controls"placeholder="Ingresa tu Matr&iacute;cula">
-            <br> <input type="text"size="40" class="controls" placeholder="Ingresa tu carrera (Siglas)">
+             <input id="uid" type="text"size="40"  class="controls"placeholder="Ingresa tu Matr&iacute;cula, sin la A">
+            <br> <input id="umajor" type="text"size="40" class="controls" placeholder="Ingresa tu carrera (Siglas)">
         
-            <br><input type="password" size="40" class="controls" placeholder="Ingresa tu contraseña">
-            <br><input type="password" size="40" class="controls" placeholder="Confirma tu contraseña">
+            <br><input id="password" type="password" size="40" class="controls" placeholder="Ingresa tu contraseña">
+            <br><input id="cpassword" type="password" size="40" class="controls" placeholder="Confirma tu contraseña">
             <br>
+            Al enviar el formulario, aceptas estar de acuerdo con los  <a href="#" class="RulesLockers" target="_blank">T&eacute;rminos y Condiciones</a>
             <input type="reset"  class ="form-botons"value="Borrar">
-          <input type="submit" class ="form-botons" value="Enviar">
+          <input type="submit" id="Benviar" class ="form-botons" value="Enviar">
         </p>
       </form>
     </div>
+    <footer>
+        <p> Creado por Francisco Cancino y Jos&eacute; Antonio Hern&aacute;ndez &copy;</p>
+    </footer>
+    <script src="js/register.js"></script>
 </body>
 </html>
